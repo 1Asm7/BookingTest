@@ -68,6 +68,8 @@ function addNewOrder($event_id, $event_date, $ticket_adult_price, $ticket_adult_
 			echo 'Ошибка бронирования! Повторите позже';
 			break;
 		}
+
+		sleep(1);
 	}
 	
 	// Подтверждение заказа
